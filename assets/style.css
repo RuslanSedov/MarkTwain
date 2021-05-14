@@ -109,6 +109,31 @@ body {
   width: 100%;
 }
 
+.quote {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.quote::after {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: #290b0b;
+  content: '';
+  width: 33vw;
+  text-align: center;
+  color: #290b0b;
+  height: 3px;
+}
+.quote img {
+  width: 32px;
+  height: 32px;
+}
+.quote__text {
+  font-style: italic;
+}
+
 @media (min-width: 680px) {
   .header {
     flex-direction: row;
