@@ -137,7 +137,9 @@ body {
 .quote__text {
   font-style: italic;
 }
-
+#books {
+  font-size: 100%;
+}
 @media (min-width: 680px) {
   .header {
     flex-direction: row;
@@ -146,6 +148,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+  }
+  #books {
+    font-size: 200%;
   }
   .header__img img {
     display: none;
