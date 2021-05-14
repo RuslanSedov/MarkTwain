@@ -96,6 +96,18 @@ body {
 .main__content h2 {
   margin-top: 0;
 }
+.main__content__img {
+  /* margin: auto; */
+}
+.main__content__img img {
+  width: 50%;
+  height: auto;
+  margin: auto;
+  border: solid 3px #290b0b;
+}
+#InBed {
+  width: 100%;
+}
 
 @media (min-width: 680px) {
   .header {
@@ -146,6 +158,12 @@ body {
   }
   .main__content {
     font-size: 125%;
+  }
+  .main__content__img img {
+    width: 25%;
+    height: auto;
+    margin: auto;
+    border: solid 3px #290b0b;
   }
 }
 
