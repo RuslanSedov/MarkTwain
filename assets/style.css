@@ -202,6 +202,19 @@ body {
   background-color: #191919;
   color: white;
   font-size: 200%;
+  font-family: 'Roboto', sans-serif;
+}
+.header-bio h1 {
+  font-weight: 100;
+}
+.stars > p {
+  text-align: center;
+}
+.stars > p::before {
+  display: block;
+  text-align: center;
+  content: '*  *  *';
+  font-size: 2rem;
 }
 
 /* ::-webkit-scrollbar-track {
