@@ -226,6 +226,9 @@ body {
   }
 }
 
+#iframe a {
+  color: darkred;
+}
 /* biography-page  */
 .header-bio {
   width: 100%;
